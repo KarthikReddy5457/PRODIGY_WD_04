@@ -1,0 +1,160 @@
+/* General Styles */
+a {
+    text-decoration: none;
+}
+
+#lil {
+    border-radius: 1.5rem;
+}
+
+.LOGO {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+}
+
+.logos {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    padding-right: 1rem;
+}
+
+.logo:hover {
+    /* border: #fff solid 2px; */
+    /* background-color: #121121; */
+    background-color: #212121;
+    border-radius: 1rem;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+}
+
+#Profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 5rem;
+    height: rem;
+    margin: 1rem;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#home .content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
